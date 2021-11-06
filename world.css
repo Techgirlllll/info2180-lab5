@@ -1,1 +1,55 @@
-/* Add your own styles */
+body {
+    margin: 0;
+}
+
+#HeaderOverview { 
+    display:flex;
+    color:#FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: #36454F;  
+}
+
+#HeaderOverview img {
+    width: 200px;
+    height: 180px;
+    margin-right: 10px;
+
+}
+
+#lookup
+{
+    background-color:#0099CC;
+    height: 40px;
+    width: 180px;
+    margin-left: 1.0%;
+    border-style: none;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 20px 5px;
+}
+
+#country
+{
+    display:block;
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    text-indent: 2%;
+    font-size: 16px;
+    background: rgba(229, 229, 229, 0.49);
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 10px 5px 10px rgba(0,0,0, 0.10);
+    color:#0099CC;
+}
+
+#controls{
+    margin: 20px 0;
+    text-align: center;
+}
+
+
