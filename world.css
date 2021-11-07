@@ -15,25 +15,35 @@ body {
     width: 200px;
     height: 180px;
     margin-right: 10px;
-
 }
 
-#lookup
-{
+#countries {
     background-color:#0099CC;
-    height: 40px;
-    width: 180px;
+    height: 50px;
+    width: 200px;
     margin-left: 1.0%;
     border-style: none;
     border-radius: 20px;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    margin: 20px 5px;
+    margin: 30px 10px;
 }
 
-#country
-{
+#cities {
+    background-color:#48BB78;
+    height: 50px;
+    width: 200px;
+    margin-left: 1.0%;
+    border-style: none;
+    border-radius: 20px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 30px 10x;
+}
+
+#country {
     display:block;
     width: 800px;
     height: 60px;
@@ -47,12 +57,12 @@ body {
     color:#0099CC;
 }
 
-#controls{
-    margin: 20px 0;
+#controls {
+    margin: 40px 0;
     text-align: center;
 }
 
-table{
+table {
     margin: 20px auto;
     padding: 50px; 
     box-shadow: 0px 5px 10px #36454F;
